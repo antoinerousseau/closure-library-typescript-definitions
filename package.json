@@ -1,0 +1,22 @@
+{
+  "name": "closure-library-typescript-definitions",
+  "version": "0.1.0",
+  "description": ".d.ts files for typescript in order to use the google closure library (goog.*)",
+  "main": "all.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoinerousseau/closure-library-typescript-definitions.git"
+  },
+  "keywords": [
+    "google",
+    "closure",
+    "typescript",
+    "library"
+  ],
+  "author": "teppeis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antoinerousseau/closure-library-typescript-definitions/issues"
+  },
+  "homepage": "https://github.com/antoinerousseau/closure-library-typescript-definitions"
+}
