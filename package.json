@@ -1,7 +1,7 @@
 {
   "name": "closure-library-typescript-definitions",
-  "version": "0.1.0",
-  "description": ".d.ts files for typescript in order to use the google closure library (goog.*)",
+  "version": "0.2.1",
+  "description": ".d.ts files for typescript 1.4 in order to use the google closure library (goog.*)",
   "main": "all.d.ts",
   "repository": {
     "type": "git",

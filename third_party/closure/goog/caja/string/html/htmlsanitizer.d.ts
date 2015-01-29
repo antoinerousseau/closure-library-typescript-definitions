@@ -1,4 +1,4 @@
-declare module goog.string$.html {
+declare module goog.string.html {
 
     /**
      * An implementation of the {@code goog.string.HtmlSaxHandler} interface that
@@ -13,8 +13,8 @@ declare module goog.string$.html {
      * @constructor
      * @extends {goog.string.html.HtmlSaxHandler}
      */
-    class HtmlSanitizer extends goog.string$.html.HtmlSaxHandler {
-        constructor(stringBuffer: goog.string$.StringBuffer, opt_urlPolicy: (arg0: string) => string, opt_nmTokenPolicy: (arg0: string) => string);
+    class HtmlSanitizer extends goog.string.html.HtmlSaxHandler {
+        constructor(stringBuffer: goog.string.StringBuffer, opt_urlPolicy: (arg0: string) => string, opt_nmTokenPolicy: (arg0: string) => string);
     }
 
     /**
@@ -30,7 +30,7 @@ declare module goog.string$.html {
     function htmlSanitize(htmlText: string, opt_urlPolicy?: (arg0: string) => string, opt_nmTokenPolicy?: (arg0: string) => string): string;
 }
 
-declare module goog.string$.html.HtmlSanitizer {
+declare module goog.string.html.HtmlSanitizer {
 
     /**
      * The HTML types the parser supports.

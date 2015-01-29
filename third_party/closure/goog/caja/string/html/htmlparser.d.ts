@@ -1,4 +1,4 @@
-declare module goog.string$.html {
+declare module goog.string.html {
 
     /**
      * An Html parser: {@code parse} takes a string and calls methods on
@@ -24,7 +24,7 @@ declare module goog.string$.html {
          *     receive the events.
          * @param {string} htmlText The html text.
          */
-        parse(handler: goog.string$.html.HtmlSaxHandler, htmlText: string): void;
+        parse(handler: goog.string.html.HtmlSaxHandler, htmlText: string): void;
     }
 
     /**
@@ -88,7 +88,7 @@ declare module goog.string$.html {
     function toLowerCase(str: string): string;
 }
 
-declare module goog.string$.html.HtmlParser {
+declare module goog.string.html.HtmlParser {
 
     /**
      * HTML entities that are encoded/decoded.
